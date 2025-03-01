@@ -36,15 +36,66 @@
       },
       {
         "commented": false,
-        "action": "_click",
         "stepParameters": [
           {
-            "paramMode": "code",
-            "customValue": "_button(\"Logout\")"
+            "paramMode": "string",
+            "customValue": "GET"
+          },
+          {
+            "paramMode": "string",
+            "customValue": "https://reqres.in/api/users?page\u003d2"
           }
         ],
         "stepCategory": "inbuilt",
-        "stepType": "Action",
+        "stepType": "REST",
+        "isRawScript": false,
+        "state": {
+          "contentType": "json",
+          "request": {
+            "method": "GET",
+            "url": "https://reqres.in/api/users?page\u003d2",
+            "parameters": [],
+            "headers": [],
+            "authType": "none",
+            "body": "",
+            "bodyParams": [],
+            "isParametrizedBody": false,
+            "resetCookies": false
+          },
+          "assertions": {
+            "status": [
+              {
+                "display": "HTTP Status Code",
+                "key": "HTTP Status Code",
+                "value": "200",
+                "assertType": "equals",
+                "id": "1740826105327.153"
+              }
+            ],
+            "header": [],
+            "body": [
+              {
+                "display": "page",
+                "key": "page",
+                "value": "2",
+                "assertType": "equals",
+                "id": "1740826105327.995"
+              }
+            ]
+          },
+          "variables": {
+            "status": [],
+            "header": [],
+            "body": []
+          },
+          "authInfo": {}
+        },
+        "specific": []
+      },
+      {
+        "commented": false,
+        "isRawScript": true,
+        "rawScript": "for(var $i\u003d0; $i\u003c10; $i++){\n\t\n_log(\"Test This\")\t\n}",
         "specific": []
       }
     ]
