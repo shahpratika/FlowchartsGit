@@ -91,6 +91,7 @@
         "isValidationsEnabled": false
       }
     ],
+    "tags": "tsmoke",
     "flowChartUID": "fcUID_userregistration_0",
     "pathExecutionOrder": []
   },

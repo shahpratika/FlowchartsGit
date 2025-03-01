@@ -189,6 +189,7 @@
         "isValidationsEnabled": false
       }
     ],
+    "tags": "tsmoke,tregression",
     "flowChartUID": "fcUID_shoppingcart_0",
     "pathExecutionOrder": []
   },
