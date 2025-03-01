@@ -4,25 +4,11 @@
   "content": {
     "isCustomFunctionsFromScriptsDir": false,
     "projectSuiteInfo": [],
-    "flowchartsAndExternalDdcsvInfo": {
-      "fcUID_userregistration_0": {
-        "uid": "fcUID_userregistration_0",
-        "dependsOn": [
-          "fcUID_shoppingcart_0"
-        ]
-      },
-      "fcUID_shoppingcart_0": {
-        "uid": "fcUID_shoppingcart_0",
-        "dependsOn": [
-          "fcUID_newcart_0"
-        ]
-      }
-    },
+    "flowchartsAndExternalDdcsvInfo": {},
     "filters": {},
     "executionOrder": [
       "User Registration",
-      "Shopping Cart",
-      "New Cart"
+      "Shopping Cart"
     ]
   }
 }
