@@ -43,7 +43,7 @@
           },
           {
             "paramMode": "string",
-            "customValue": "https://reqres.in/api/users?page\u003d2"
+            "customValue": "https://reqres.in/api/users?page\u003d1"
           }
         ],
         "stepCategory": "inbuilt",
@@ -53,7 +53,7 @@
           "contentType": "json",
           "request": {
             "method": "GET",
-            "url": "https://reqres.in/api/users?page\u003d2",
+            "url": "https://reqres.in/api/users?page\u003d1",
             "parameters": [],
             "headers": [],
             "authType": "none",
@@ -70,16 +70,59 @@
                 "value": "200",
                 "assertType": "equals",
                 "id": "1740826105327.153"
+              },
+              {
+                "display": "HTTP Status Code",
+                "key": "HTTP Status Code",
+                "value": "200",
+                "assertType": "equals",
+                "id": "1740826267344.471"
+              },
+              {
+                "display": "HTTP Status Code",
+                "key": "HTTP Status Code",
+                "value": "200",
+                "assertType": "equals",
+                "id": "1740826357699.345"
               }
             ],
-            "header": [],
+            "header": [
+              {
+                "display": "Content-Type",
+                "key": "Content-Type",
+                "value": "application/json; charset\u003dutf-8",
+                "assertType": "equals",
+                "id": "1740826348368.880"
+              }
+            ],
             "body": [
               {
                 "display": "page",
                 "key": "page",
-                "value": "2",
+                "value": "1",
                 "assertType": "equals",
                 "id": "1740826105327.995"
+              },
+              {
+                "display": "data[1].first_name",
+                "key": "data[1]¬first_name",
+                "value": "Janet",
+                "assertType": "equals",
+                "id": "1740826357700.659"
+              },
+              {
+                "display": "data[1].last_name",
+                "key": "data[1]¬last_name",
+                "value": "Weaver",
+                "assertType": "equals",
+                "id": "1740826357700.568"
+              },
+              {
+                "display": "data[3].first_name",
+                "key": "data[3]¬first_name",
+                "value": "Eve",
+                "assertType": "equals",
+                "id": "1740826389824.759"
               }
             ]
           },
@@ -95,7 +138,7 @@
       {
         "commented": false,
         "isRawScript": true,
-        "rawScript": "for(var $i\u003d0; $i\u003c10; $i++){\n\t\n_log(\"Test This\")\t\n}",
+        "rawScript": "for(var $i\u003d0; $i\u003c10; $i++){\n\t\n_log(\"Test This\");\n_log(\"New Line Added\")\n}",
         "specific": []
       }
     ]
