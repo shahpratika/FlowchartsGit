@@ -2,9 +2,16 @@
   "description": "",
   "title": "User Registration",
   "content": {
-    "isCustomFunctionsFromScriptsDir": false,
+    "isCustomFunctionsFromScriptsDir": true,
     "projectSuiteInfo": [],
-    "flowchartsAndExternalDdcsvInfo": {},
+    "flowchartsAndExternalDdcsvInfo": {
+      "fcUID_userregistration_0": {
+        "uid": "fcUID_userregistration_0",
+        "dependsOn": [
+          "fcUID_shoppingcart_0"
+        ]
+      }
+    },
     "filters": {},
     "executionOrder": [
       "User Registration",

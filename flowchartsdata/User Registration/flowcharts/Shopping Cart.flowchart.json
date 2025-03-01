@@ -189,6 +189,7 @@
         "isValidationsEnabled": false
       }
     ],
+    "tags": "smoke,regression",
     "flowChartUID": "fcUID_shoppingcart_0",
     "pathExecutionOrder": []
   },
