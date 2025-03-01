@@ -43,7 +43,7 @@
           },
           {
             "paramMode": "string",
-            "customValue": "https://reqres.in/api/users?page\u003d2"
+            "customValue": "https://reqres.in/api/users?page\u003d3"
           }
         ],
         "stepCategory": "inbuilt",
@@ -53,7 +53,7 @@
           "contentType": "json",
           "request": {
             "method": "GET",
-            "url": "https://reqres.in/api/users?page\u003d2",
+            "url": "https://reqres.in/api/users?page\u003d3",
             "parameters": [],
             "headers": [],
             "authType": "none",
@@ -70,6 +70,13 @@
                 "value": "200",
                 "assertType": "equals",
                 "id": "1740826105327.153"
+              },
+              {
+                "display": "HTTP Status Code",
+                "key": "HTTP Status Code",
+                "value": "200",
+                "assertType": "equals",
+                "id": "1740826497380.498"
               }
             ],
             "header": [],
@@ -77,9 +84,23 @@
               {
                 "display": "page",
                 "key": "page",
-                "value": "2",
+                "value": "3",
                 "assertType": "equals",
-                "id": "1740826105327.995"
+                "id": "1740826497380.900"
+              },
+              {
+                "display": "per_page",
+                "key": "per_page",
+                "value": "6",
+                "assertType": "equals",
+                "id": "1740826497381.339"
+              },
+              {
+                "display": "total",
+                "key": "total",
+                "value": "12",
+                "assertType": "equals",
+                "id": "1740826497381.458"
               }
             ]
           },
@@ -95,7 +116,7 @@
       {
         "commented": false,
         "isRawScript": true,
-        "rawScript": "for(var $i\u003d0; $i\u003c10; $i++){\n\t\n_log(\"Test This\")\t\n}",
+        "rawScript": "for(var $i\u003d0; $i\u003c10; $i++){\n_log(\"Line -1\")\n_log(\"Test This\")\t\n}",
         "specific": []
       }
     ]
