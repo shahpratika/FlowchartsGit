@@ -8,7 +8,7 @@
       "fcUID_shoppingcart_0": {
         "uid": "fcUID_shoppingcart_0",
         "dependsOn": [
-          "fcUID_reproduce4191_0"
+          "fcUID_userregistration_0"
         ]
       }
     },
