@@ -15,8 +15,7 @@
     "filters": {},
     "executionOrder": [
       "User Registration",
-      "Shopping Cart",
-      "Reproduce 4191"
+      "Shopping Cart"
     ]
   }
 }
