@@ -4,7 +4,14 @@
   "content": {
     "isCustomFunctionsFromScriptsDir": false,
     "projectSuiteInfo": [],
-    "flowchartsAndExternalDdcsvInfo": {},
+    "flowchartsAndExternalDdcsvInfo": {
+      "fcUID_shoppingcart_0": {
+        "uid": "fcUID_shoppingcart_0",
+        "dependsOn": [
+          "fcUID_userregistration_0"
+        ]
+      }
+    },
     "filters": {},
     "executionOrder": [
       "User Registration",
