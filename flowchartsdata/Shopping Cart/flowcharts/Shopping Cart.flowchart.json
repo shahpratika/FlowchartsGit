@@ -1,0 +1,113 @@
+{
+  "name": "Shopping Cart",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_shoppingcart_0"
+        ]
+      },
+      "fcn_shoppingcart_0": {
+        "id": "fcn_shoppingcart_0",
+        "content": "Shopping Cart",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_loginuser_0"
+        ]
+      },
+      "fcn_loginuser_0": {
+        "id": "fcn_loginuser_0",
+        "content": "Login $user",
+        "nodeType": "action",
+        "branches": [
+          "fcn_addbookstocart_0"
+        ],
+        "dataSet": {
+          "dataSetName": "User.csv",
+          "dataSetGroupName": "default"
+        },
+        "dataSetBoundary": "datasetstart"
+      },
+      "fcn_addbookstocart_0": {
+        "id": "fcn_addbookstocart_0",
+        "content": "Add $books to cart",
+        "nodeType": "action",
+        "branches": [
+          "fcn_verifybookstotal_0"
+        ],
+        "dataSet": {
+          "dataSetName": "Books Data.csv",
+          "dataSetGroupName": "Ä Ö"
+        },
+        "dataSetBoundary": "datasetstart"
+      },
+      "fcn_verifybookstotal_0": {
+        "id": "fcn_verifybookstotal_0",
+        "content": "Verify $books Total",
+        "nodeType": "state",
+        "branches": [
+          "fcn_logout_0"
+        ],
+        "dataSetBoundary": "datasetend"
+      },
+      "fcn_logout_0": {
+        "id": "fcn_logout_0",
+        "content": "Logout",
+        "nodeType": "action",
+        "branches": [],
+        "dataSetBoundary": "datasetend"
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_shoppingcart_0": {
+        "top": 211.0,
+        "left": 500.0
+      },
+      "fcn_loginuser_0": {
+        "top": 270.0,
+        "left": 502.0
+      },
+      "fcn_addbookstocart_0": {
+        "top": 335.1458435058594,
+        "left": 501.0
+      },
+      "fcn_verifybookstotal_0": {
+        "top": 400.3020435058594,
+        "left": 500.0
+      },
+      "fcn_logout_0": {
+        "top": 465.44788701171876,
+        "left": 500.0
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_shoppingcart_0",
+          "fcn_loginuser_0",
+          "fcn_addbookstocart_0",
+          "fcn_verifybookstotal_0",
+          "fcn_logout_0"
+        ],
+        "dependsPathUID": "17411551760200",
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_shoppingcart_0",
+    "pathExecutionOrder": [
+      "17411551760200"
+    ]
+  },
+  "enabled": true,
+  "parentId": ""
+}

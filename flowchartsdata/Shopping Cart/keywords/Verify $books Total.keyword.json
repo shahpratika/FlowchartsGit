@@ -1,0 +1,42 @@
+{
+  "name": "Verify $books Total",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Verify $books Total",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "books_",
+        "entityTypeId": "books",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": false,
+        "action": "_getText",
+        "stepParameters": [
+          {
+            "paramMode": "default",
+            "parameterId": "books_",
+            "attributeId": "attr_total_3",
+            "accessorId": "acc_textbox_total"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Assert",
+        "assertType": "Equals",
+        "secondaryParam": {
+          "paramMode": "default",
+          "parameterId": "books_",
+          "attributeId": "attr_total_3"
+        },
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}
