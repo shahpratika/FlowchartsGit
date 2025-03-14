@@ -33,6 +33,20 @@
         "stepCategory": "inbuilt",
         "stepType": "Action",
         "specific": []
+      },
+      {
+        "commented": false,
+        "action": "testCustomFunctionMerge",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "Test Me"
+          }
+        ],
+        "stepCategory": "customfn",
+        "stepType": "Action",
+        "scriptPath": "./functionLibNew.sah",
+        "specific": []
       }
     ]
   },
