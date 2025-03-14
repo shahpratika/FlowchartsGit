@@ -19,7 +19,7 @@
         ],
         "stepCategory": "inbuilt",
         "stepType": "Action",
-        "blurDisableCheck": true,
+        "visibleCheck": true,
         "specific": []
       },
       {
@@ -41,7 +41,7 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "OldTest"
+            "customValue": "New Test"
           },
           {
             "paramMode": "string",
@@ -53,7 +53,7 @@
         "scriptPath": "./functionLibNew.sah",
         "secondaryParam": {
           "paramMode": "code",
-          "customValue": "$OldreturnValue"
+          "customValue": "$returnValueNew"
         },
         "specific": []
       }
