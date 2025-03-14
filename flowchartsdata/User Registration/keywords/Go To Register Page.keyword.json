@@ -37,10 +37,23 @@
       {
         "commented": false,
         "action": "testCustomFunctionMerge",
-        "stepParameters": [],
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "Test"
+          },
+          {
+            "paramMode": "string",
+            "customValue": "Secret"
+          }
+        ],
         "stepCategory": "customfn",
-        "stepType": "Action",
+        "stepType": "Store",
         "scriptPath": "./functionLibNew.sah",
+        "secondaryParam": {
+          "paramMode": "code",
+          "customValue": "$returnValue"
+        },
         "specific": []
       }
     ]

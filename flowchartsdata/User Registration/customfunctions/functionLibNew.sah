@@ -1,4 +1,4 @@
-function testCustomFunctionMerge(){
+function testCustomFunctionMerge($argument1 , $Argument2){
 
 _log("testCustomFunctionMerge")
 }
