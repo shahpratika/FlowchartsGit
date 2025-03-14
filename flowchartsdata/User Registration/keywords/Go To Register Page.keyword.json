@@ -40,12 +40,20 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "Test Me"
+            "customValue": "OldTest"
+          },
+          {
+            "paramMode": "string",
+            "customValue": "Secret"
           }
         ],
         "stepCategory": "customfn",
-        "stepType": "Action",
+        "stepType": "Store",
         "scriptPath": "./functionLibNew.sah",
+        "secondaryParam": {
+          "paramMode": "code",
+          "customValue": "$OldreturnValue"
+        },
         "specific": []
       }
     ]
