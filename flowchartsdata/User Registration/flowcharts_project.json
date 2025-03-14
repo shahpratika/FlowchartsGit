@@ -7,13 +7,7 @@
     "flowchartsAndExternalDdcsvInfo": {
       "fcUID_shoppingcart_0": {
         "uid": "fcUID_shoppingcart_0",
-<<<<<<< HEAD
-        "dependsOn": [
-
-        ]
-=======
         "dependsOn": []
->>>>>>> 2f6051e155bf5bde1c01a36f71b5376e3de57239
       }
     },
     "filters": {},
