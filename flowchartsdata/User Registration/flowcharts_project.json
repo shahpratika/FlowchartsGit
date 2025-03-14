@@ -13,7 +13,7 @@
     "filters": {},
     "executionOrder": [
       "User Registration",
-      "Shopping Cart",
+      "Shopping Cart ä, ö, and ü,",
       "Reproduce 4191"
     ]
   }

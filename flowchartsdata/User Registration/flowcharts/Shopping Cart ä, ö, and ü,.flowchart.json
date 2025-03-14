@@ -1,5 +1,5 @@
 {
-  "name": "Shopping Cart",
+  "name": "Shopping Cart ä, ö, and ü,",
   "id": "-1",
   "type": 0,
   "content": {
@@ -138,7 +138,7 @@
         "left": 1084.0000305175781
       }
     },
-    "isPrimary": false,
+    "isPrimary": true,
     "pathNames": [
       {
         "pathKey": [
@@ -189,10 +189,10 @@
         "isValidationsEnabled": false
       }
     ],
-    "tags": "",
+    "tags": "fgggg",
     "flowChartUID": "fcUID_shoppingcart_0",
     "pathExecutionOrder": []
   },
-  "enabled": true,
+  "enabled": false,
   "parentId": ""
 }
