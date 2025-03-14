@@ -6,5 +6,7 @@
 "",1,1,1,850
 "Ä Öd",$books.java,$books.ruby,$books.python,$books.total
 "",1,1,1,850
-" Ä Öd","$entity_name.attribute_name"
+"Ä Öd",$books.java,$books.ruby,$books.python,$books.total
+"",1,1,1,850
+"tesss","$entity_name.attribute_name"
 "","attribute_value"
