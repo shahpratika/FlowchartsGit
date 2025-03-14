@@ -77,7 +77,7 @@
         "left": 500.0
       }
     },
-    "isPrimary": true,
+    "isPrimary": false,
     "pathNames": [
       {
         "pathKey": [
@@ -91,10 +91,10 @@
         "isValidationsEnabled": false
       }
     ],
-    "tags": "remotechange",
+    "tags": "local_change",
     "flowChartUID": "fcUID_userregistration_0",
     "pathExecutionOrder": []
   },
-  "enabled": true,
+  "enabled": false,
   "parentId": ""
 }
