@@ -12,7 +12,7 @@
     },
     "filters": {},
     "executionOrder": [
-      "User Registration",
+      "\"User Registration\"",
       "Shopping Cart",
       "Reproduce 4191"
     ]
