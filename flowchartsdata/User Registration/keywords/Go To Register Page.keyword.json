@@ -19,6 +19,7 @@
         ],
         "stepCategory": "inbuilt",
         "stepType": "Action",
+        "blurDisableCheck": true,
         "specific": []
       },
       {
