@@ -193,6 +193,6 @@
     "flowChartUID": "fcUID_shoppingcart_0",
     "pathExecutionOrder": []
   },
-  "enabled": false,
+  "enabled": true,
   "parentId": ""
 }
