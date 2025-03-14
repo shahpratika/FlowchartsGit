@@ -77,7 +77,7 @@
         "left": 500.0
       }
     },
-    "isPrimary": false,
+    "isPrimary": true,
     "pathNames": [
       {
         "pathKey": [
@@ -91,10 +91,14 @@
         "isValidationsEnabled": false
       }
     ],
+<<<<<<< HEAD
     "tags": "local_change1",
+=======
+    "tags": "local_change2",
+>>>>>>> fe12b78f655d9e06ff7da0b98f39c5389a7e6b0e
     "flowChartUID": "fcUID_userregistration_0",
     "pathExecutionOrder": []
   },
-  "enabled": false,
+  "enabled": true,
   "parentId": ""
 }
