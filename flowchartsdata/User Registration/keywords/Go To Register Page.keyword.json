@@ -15,6 +15,10 @@
           {
             "paramMode": "code",
             "customValue": "_link(\"My Account\")"
+          },
+          {
+            "paramMode": "string",
+            "customValue": ""
           }
         ],
         "stepCategory": "inbuilt",
