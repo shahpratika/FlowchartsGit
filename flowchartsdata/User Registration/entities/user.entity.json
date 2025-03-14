@@ -9,7 +9,7 @@
         "accessors": [
           {
             "id": "acc_textbox_firstname",
-            "name": "New Input",
+            "name": "My Input",
             "accessor": "_textbox(\"firstname\")",
             "messageAccessor": ""
           }
