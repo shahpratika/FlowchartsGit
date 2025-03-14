@@ -40,7 +40,7 @@
         "stepParameters": [
           {
             "paramMode": "string",
-            "customValue": "Test"
+            "customValue": "New Test"
           },
           {
             "paramMode": "string",
@@ -52,7 +52,7 @@
         "scriptPath": "./functionLibNew.sah",
         "secondaryParam": {
           "paramMode": "code",
-          "customValue": "$returnValue"
+          "customValue": "$returnValueNew"
         },
         "specific": []
       }
