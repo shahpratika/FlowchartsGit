@@ -8,16 +8,7 @@
       "fcUID_shoppingcart_0": {
         "uid": "fcUID_shoppingcart_0",
         "dependsOn": [
-<<<<<<< HEAD
-          "fcUID_userregistration_0"
-=======
-<<<<<<< HEAD
-          "fcUID_userregistration_0"
-=======
-          "fcUID_userregistration_0",
-          "fcUID_reproduce4191_0"
->>>>>>> 9dd86e18736e161e7a8386c3d82bdd1fd852f22c
->>>>>>> ea2d8100dfec75034ac4f4ae0a25322fefeec1b3
+
         ]
       }
     },
