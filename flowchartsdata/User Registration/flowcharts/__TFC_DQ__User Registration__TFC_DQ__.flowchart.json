@@ -91,7 +91,7 @@
         "isValidationsEnabled": false
       }
     ],
-    "tags": "test",
+    "tags": "remotechange",
     "flowChartUID": "fcUID_userregistration_0",
     "pathExecutionOrder": []
   },
