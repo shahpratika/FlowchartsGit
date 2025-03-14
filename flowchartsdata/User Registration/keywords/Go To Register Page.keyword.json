@@ -40,7 +40,7 @@
         "stepParameters": [],
         "stepCategory": "customfn",
         "stepType": "Action",
-        "scriptPath": "./functionsLib.sah",
+        "scriptPath": "./functionLibNew.sah",
         "specific": []
       }
     ]
