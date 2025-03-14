@@ -1,5 +1,5 @@
 {
-  "name": "Shopping Cart ä, ö, and ü,",
+  "name": "Shopping Cart  ö, and ü,",
   "id": "-1",
   "type": 0,
   "content": {
@@ -189,7 +189,7 @@
         "isValidationsEnabled": false
       }
     ],
-    "tags": "fgggg",
+    "tags": "localchange",
     "flowChartUID": "fcUID_shoppingcart_0",
     "pathExecutionOrder": []
   },
