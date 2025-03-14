@@ -189,9 +189,10 @@
         "isValidationsEnabled": false
       }
     ],
+    "tags": "",
     "flowChartUID": "fcUID_shoppingcart_0",
     "pathExecutionOrder": []
   },
-  "enabled": true,
+  "enabled": false,
   "parentId": ""
 }
