@@ -1,6 +1,6 @@
 {
   "name": "Go To Register Page",
-  "id": "0",
+  "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
@@ -32,6 +32,15 @@
         ],
         "stepCategory": "inbuilt",
         "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "testCustomFunctionMerge",
+        "stepParameters": [],
+        "stepCategory": "customfn",
+        "stepType": "Action",
+        "scriptPath": "./functionsLib.sah",
         "specific": []
       }
     ]

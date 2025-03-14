@@ -1,0 +1,4 @@
+function testCustomFunctionMerge(){
+
+_log("testCustomFunctionMerge")
+}
