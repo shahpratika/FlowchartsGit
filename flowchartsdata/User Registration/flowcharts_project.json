@@ -7,8 +7,8 @@
     "flowchartsAndExternalDdcsvInfo": {},
     "filters": {},
     "executionOrder": [
-      "Checkout",
-      "User Registration"
+      "User Registration Local",
+      "Checkout"
     ]
   }
 }
