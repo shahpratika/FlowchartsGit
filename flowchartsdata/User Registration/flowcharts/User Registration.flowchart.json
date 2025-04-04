@@ -9,12 +9,7 @@
         "content": "Start",
         "nodeType": "start",
         "branches": [
-<<<<<<< HEAD
-          "fcn_userregistration_0",
-          "fcn_guestregistration_0"
-=======
           "fcn_userregistration_0"
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
         ]
       },
       "fcn_userregistration_0": {
@@ -27,11 +22,7 @@
       },
       "fcn_gotoregisterpage_0": {
         "id": "fcn_gotoregisterpage_0",
-<<<<<<< HEAD
-        "content": "Go To Registration Page",
-=======
         "content": "Go To Register Page",
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
         "nodeType": "action",
         "branches": [
           "fcn_registeruser_0"
@@ -39,11 +30,7 @@
       },
       "fcn_registeruser_0": {
         "id": "fcn_registeruser_0",
-<<<<<<< HEAD
-        "content": "Register $user To application",
-=======
         "content": "Register $user",
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
         "nodeType": "action",
         "branches": [
           "fcn_verifyuserregistered_0"
@@ -51,11 +38,7 @@
       },
       "fcn_verifyuserregistered_0": {
         "id": "fcn_verifyuserregistered_0",
-<<<<<<< HEAD
-        "content": "Verify $user Registered Successfully",
-=======
         "content": "Verify $user Registered",
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
         "nodeType": "state",
         "branches": [
           "fcn_logout_0"
@@ -63,65 +46,7 @@
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
-<<<<<<< HEAD
-        "content": "Logout Application",
-        "nodeType": "action",
-        "branches": []
-      },
-      "fcn_guestregistration_0": {
-        "id": "fcn_guestregistration_0",
-        "content": "Guest Registration",
-        "nodeType": "pathlabel",
-        "branches": [
-          "fcn_gotoproductdisplaypage_0"
-        ]
-      },
-      "fcn_gotoproductdisplaypage_0": {
-        "id": "fcn_gotoproductdisplaypage_0",
-        "content": "Go To Product Display Page",
-        "nodeType": "action",
-        "branches": [
-          "fcn_addmobile_0"
-        ]
-      },
-      "fcn_addmobile_0": {
-        "id": "fcn_addmobile_0",
-        "content": "Add Mobile",
-        "nodeType": "action",
-        "branches": [
-          "fcn_additemtocart_0"
-        ]
-      },
-      "fcn_additemtocart_0": {
-        "id": "fcn_additemtocart_0",
-        "content": "Add Item To Cart",
-        "nodeType": "action",
-        "branches": [
-          "fcn_addshippingdetails_0"
-        ]
-      },
-      "fcn_addshippingdetails_0": {
-        "id": "fcn_addshippingdetails_0",
-        "content": "Add Shipping Details",
-        "nodeType": "action",
-        "branches": [
-          "fcn_verifymobileprice_0"
-        ]
-      },
-      "fcn_verifymobileprice_0": {
-        "id": "fcn_verifymobileprice_0",
-        "content": "Verify Mobile Price",
-        "nodeType": "state",
-        "branches": [
-          "fcn_confirmorder_0"
-        ]
-      },
-      "fcn_confirmorder_0": {
-        "id": "fcn_confirmorder_0",
-        "content": "Confirm Order",
-=======
         "content": "Logout",
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
         "nodeType": "action",
         "branches": []
       }
@@ -150,37 +75,6 @@
       "fcn_logout_0": {
         "top": 459.3020435058594,
         "left": 500.0
-<<<<<<< HEAD
-      },
-      "fcn_guestregistration_0": {
-        "top": 211.0,
-        "left": 780.0
-      },
-      "fcn_gotoproductdisplaypage_0": {
-        "top": 269.0,
-        "left": 780.0
-      },
-      "fcn_addmobile_0": {
-        "top": 328.0,
-        "left": 780.0
-      },
-      "fcn_additemtocart_0": {
-        "top": 387.0,
-        "left": 780.0
-      },
-      "fcn_addshippingdetails_0": {
-        "top": 446.0,
-        "left": 780.0
-      },
-      "fcn_verifymobileprice_0": {
-        "top": 505.0,
-        "left": 780.0
-      },
-      "fcn_confirmorder_0": {
-        "top": 564.0,
-        "left": 780.0
-=======
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
       }
     },
     "isPrimary": true,
@@ -198,38 +92,11 @@
           "dataSetName": "User Registration.csv",
           "dataSetGroupName": "user_information"
         },
-<<<<<<< HEAD
-        "pathTags": "regression",
-        "isValidationsEnabled": true
-      },
-      {
-        "pathKey": [
-          "fcn_guestregistration_0",
-          "fcn_gotoproductdisplaypage_0",
-          "fcn_addmobile_0",
-          "fcn_additemtocart_0",
-          "fcn_addshippingdetails_0",
-          "fcn_verifymobileprice_0",
-          "fcn_confirmorder_0"
-        ],
-        "dependsPathUID": "17437468528651",
-        "pathTags": "smoke",
-        "isValidationsEnabled": true
-      }
-    ],
-    "tags": "regression",
-    "flowChartUID": "fcUID_userregistration_0",
-    "pathExecutionOrder": [
-      "17437468528651",
-      "17436732835790"
-    ]
-=======
         "isValidationsEnabled": false
       }
     ],
     "flowChartUID": "fcUID_userregistration_0",
     "pathExecutionOrder": []
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
   },
   "enabled": true,
   "parentId": ""
