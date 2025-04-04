@@ -1,0 +1,61 @@
+{
+  "name": "Checkout",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_checkout_0"
+        ]
+      },
+      "fcn_checkout_0": {
+        "id": "fcn_checkout_0",
+        "content": "Checkout",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_checkout_1"
+        ]
+      },
+      "fcn_checkout_1": {
+        "id": "fcn_checkout_1",
+        "content": "Checkout",
+        "nodeType": "action",
+        "branches": []
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_checkout_0": {
+        "top": 211.0,
+        "left": 500.0
+      },
+      "fcn_checkout_1": {
+        "top": 270.0,
+        "left": 500.0
+      }
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_checkout_0",
+          "fcn_checkout_1"
+        ],
+        "dependsPathUID": "17437470748740",
+        "isValidationsEnabled": false
+      }
+    ],
+    "tags": "smoke",
+    "flowChartUID": "fcUID_checkout_0",
+    "pathExecutionOrder": []
+  },
+  "enabled": true,
+  "parentId": ""
+}
