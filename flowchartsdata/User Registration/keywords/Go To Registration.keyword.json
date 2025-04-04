@@ -1,10 +1,10 @@
 {
-  "name": "Go To Register Page",
-  "id": "0",
+  "name": "Go To Registration",
+  "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "Go To Register Page",
+    "title": "Go To Registration",
     "specific": [],
     "parameters": [],
     "steps": [

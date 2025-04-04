@@ -22,7 +22,7 @@
       },
       "fcn_gotoregisterpage_0": {
         "id": "fcn_gotoregisterpage_0",
-        "content": "Go To Register Page",
+        "content": "Go To Registration",
         "nodeType": "action",
         "branches": [
           "fcn_registeruser_0"
