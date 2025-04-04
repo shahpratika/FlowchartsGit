@@ -10,12 +10,13 @@
         "nodeType": "start",
         "branches": [
           "fcn_userregistration_0",
-          "fcn_guestregistration_0"
+          "fcn_guestregistration_0",
+          "fcn_testnode_0"
         ]
       },
       "fcn_userregistration_0": {
         "id": "fcn_userregistration_0",
-        "content": "User Registration Local",
+        "content": "User Registration",
         "nodeType": "pathlabel",
         "branches": [
           "fcn_gotoregisterpage_0"
@@ -53,7 +54,7 @@
       },
       "fcn_guestregistration_0": {
         "id": "fcn_guestregistration_0",
-        "content": "Guest Registration Local",
+        "content": "Guest Registration",
         "nodeType": "pathlabel",
         "branches": [
           "fcn_gotoproductdisplaypage_0"
@@ -104,6 +105,12 @@
         "content": "Confirm Order",
         "nodeType": "action",
         "branches": []
+      },
+      "fcn_testnode_0": {
+        "id": "fcn_testnode_0",
+        "content": "Test Node",
+        "nodeType": "pathlabel",
+        "branches": []
       }
     },
     "positions": {
@@ -133,7 +140,7 @@
       },
       "fcn_guestregistration_0": {
         "top": 211.0,
-        "left": 780.0
+        "left": 781.0
       },
       "fcn_gotoproductdisplaypage_0": {
         "top": 269.0,
@@ -158,6 +165,10 @@
       "fcn_confirmorder_0": {
         "top": 564.0,
         "left": 780.0
+      },
+      "fcn_testnode_0": {
+        "top": 211.0,
+        "left": 1061.0
       }
     },
     "isPrimary": true,
@@ -172,10 +183,10 @@
         ],
         "dependsPathUID": "17436732835790",
         "dataSet": {
-          "dataSetName": "Local User Registration.csv",
+          "dataSetName": "User Registration.csv",
           "dataSetGroupName": "user_information"
         },
-        "pathTags": "local",
+        "pathTags": "",
         "isValidationsEnabled": true
       },
       {
@@ -191,6 +202,13 @@
         "dependsPathUID": "17437468528651",
         "pathTags": "local",
         "isValidationsEnabled": true
+      },
+      {
+        "pathKey": [
+          "fcn_testnode_0"
+        ],
+        "dependsPathUID": "17437590938482",
+        "isValidationsEnabled": false
       }
     ],
     "tags": "local",

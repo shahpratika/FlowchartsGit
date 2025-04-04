@@ -14,7 +14,7 @@
         "stepParameters": [
           {
             "paramMode": "code",
-            "customValue": "_link(\"My Account\", _in(_listItem(\"My Account Register Login\")))"
+            "customValue": "_link(\"My Account\")"
           }
         ],
         "stepCategory": "inbuilt",

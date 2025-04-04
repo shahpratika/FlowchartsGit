@@ -1,0 +1,10 @@
+{
+  "name": "base",
+  "id": "0",
+  "type": 2,
+  "content": {
+    "accessors": []
+  },
+  "enabled": false,
+  "parentId": ""
+}

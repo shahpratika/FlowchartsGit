@@ -10,7 +10,7 @@
           {
             "id": "acc_textbox_firstname",
             "name": "Firstname Input",
-            "accessor": "_textbox(\"firstname\", _near(_label(\"First Name\")))",
+            "accessor": "_textbox(\"firstname\")",
             "messageAccessor": ""
           }
         ],
@@ -18,7 +18,7 @@
         "props": {
           "prefix": "John",
           "min-length": "3",
-          "max-length": "6",
+          "max-length": "7",
           "include-alphabet": "true",
           "include-numeric": "false",
           "include-special": "false",
@@ -42,15 +42,16 @@
           {
             "id": "acc_textbox_lastname",
             "name": "Lastname Input",
-            "accessor": "_textbox(\"lastname\", _near(_label(\"Last Name\")))",
+            "accessor": "_textbox(\"lastname\")",
             "messageAccessor": ""
           }
         ],
         "type": "text",
         "props": {
           "prefix": "Smith",
-          "min-length": "0",
-          "max-length": "0"
+          "min-length": "2",
+          "max-length": "0",
+          "is-encrypted": "false"
         },
         "invalidData": [],
         "validData": []
@@ -77,24 +78,14 @@
         },
         "invalidData": [
           {
-            "value": "",
-            "message": "Email not valid",
-            "comment": "Should not be blank"
-          },
-          {
             "value": "name.example.com",
-            "message": "Email not valid",
+            "message": "",
             "comment": "@ is missing"
           },
           {
             "value": "@example.com",
-            "message": "Email not valid",
+            "message": "",
             "comment": "Incomplete email id"
-          },
-          {
-            "value": "name@",
-            "message": "Email not valid",
-            "comment": "Email domain is missing"
           }
         ],
         "validData": []
