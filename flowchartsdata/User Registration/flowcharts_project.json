@@ -7,10 +7,7 @@
     "flowchartsAndExternalDdcsvInfo": {},
     "filters": {},
     "executionOrder": [
-<<<<<<< HEAD
       "Checkout",
-=======
->>>>>>> d460bfcb855ab6cbe15220cd491b8bb679124780
       "User Registration"
     ]
   }
