@@ -1,3 +1,3 @@
-"user_information","$local_user.firstname","$local_user.lastname"
+"user_information","$user.firstname","$user.lastname"
 "","Steven","Smith"
 "","Joe","Root"

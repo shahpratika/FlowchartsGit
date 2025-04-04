@@ -1,15 +1,15 @@
 {
-  "name": "Register $local_user",
+  "name": "Register $user",
   "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "Register $local_user",
+    "title": "Register $user",
     "specific": [],
     "parameters": [
       {
-        "parameterId": "local_user_",
-        "entityTypeId": "local_user",
+        "parameterId": "user_",
+        "entityTypeId": "user",
         "suffix": ""
       }
     ],
@@ -20,13 +20,13 @@
         "stepParameters": [
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_firstname_0",
             "accessorId": "acc_textbox_firstname"
           },
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_firstname_0"
           }
         ],
@@ -43,13 +43,13 @@
         "stepParameters": [
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_lastname_1",
             "accessorId": "acc_textbox_lastname"
           },
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_lastname_1"
           }
         ],
@@ -66,13 +66,13 @@
         "stepParameters": [
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_email_2",
             "accessorId": "acc_emailbox_email"
           },
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_email_2"
           }
         ],
@@ -89,13 +89,13 @@
         "stepParameters": [
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_telephone_3",
             "accessorId": "acc_telephonebox_telephone"
           },
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_telephone_3"
           }
         ],
@@ -112,13 +112,13 @@
         "stepParameters": [
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_password_4",
             "accessorId": "acc_password_password"
           },
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_password_4"
           }
         ],
@@ -135,13 +135,13 @@
         "stepParameters": [
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_confirm_5",
             "accessorId": "acc_password_confirm"
           },
           {
             "paramMode": "default",
-            "parameterId": "local_user_",
+            "parameterId": "user_",
             "attributeId": "attr_confirm_5"
           }
         ],

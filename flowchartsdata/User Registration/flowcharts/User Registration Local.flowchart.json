@@ -31,7 +31,7 @@
       },
       "fcn_registeruser_0": {
         "id": "fcn_registeruser_0",
-        "content": "Register $local_user",
+        "content": "Register $user",
         "nodeType": "action",
         "branches": [
           "fcn_verifyuserregistered_0"
@@ -39,7 +39,7 @@
       },
       "fcn_verifyuserregistered_0": {
         "id": "fcn_verifyuserregistered_0",
-        "content": "Verify $local_user Registered Successfully",
+        "content": "Verify $user Registered Successfully",
         "nodeType": "state",
         "branches": [
           "fcn_logout_0"
