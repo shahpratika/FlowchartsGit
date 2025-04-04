@@ -1,10 +1,10 @@
 {
-  "name": "Go To Registration Page",
+  "name": "Logout",
   "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "Go To Registration Page",
+    "title": "Logout",
     "specific": [],
     "parameters": [],
     "steps": [
@@ -27,7 +27,20 @@
         "stepParameters": [
           {
             "paramMode": "code",
-            "customValue": "_link(\"Register\")"
+            "customValue": "_link(\"Logout\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": false,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"Continue\")"
           }
         ],
         "stepCategory": "inbuilt",

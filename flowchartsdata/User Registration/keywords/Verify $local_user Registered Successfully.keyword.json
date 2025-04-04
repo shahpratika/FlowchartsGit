@@ -1,15 +1,15 @@
 {
-  "name": "Verify $user Registered Successfully",
+  "name": "Verify $local_user Registered Successfully",
   "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "Verify $user Registered Successfully",
+    "title": "Verify $local_user Registered Successfully",
     "specific": [],
     "parameters": [
       {
-        "parameterId": "user_",
-        "entityTypeId": "user",
+        "parameterId": "local_user_",
+        "entityTypeId": "local_user",
         "suffix": ""
       }
     ],

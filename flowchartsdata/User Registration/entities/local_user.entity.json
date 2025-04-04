@@ -1,5 +1,5 @@
 {
-  "name": "user",
+  "name": "local_user",
   "id": "-1",
   "type": 1,
   "content": {
@@ -10,7 +10,7 @@
           {
             "id": "acc_textbox_firstname",
             "name": "Firstname Input",
-            "accessor": "_textbox(\"firstname\")",
+            "accessor": "_textbox(\"firstname\", _near(_label(\"First Name\")))",
             "messageAccessor": ""
           }
         ],
@@ -42,7 +42,7 @@
           {
             "id": "acc_textbox_lastname",
             "name": "Lastname Input",
-            "accessor": "_textbox(\"lastname\")",
+            "accessor": "_textbox(\"lastname\", _near(_label(\"Last Name\")))",
             "messageAccessor": ""
           }
         ],
@@ -61,7 +61,7 @@
           {
             "id": "acc_emailbox_email",
             "name": "Email Input",
-            "accessor": "_emailbox(\"email\")",
+            "accessor": "_emailbox(\"email\", _near(_label(\"E-Mail\")))",
             "messageAccessor": ""
           }
         ],

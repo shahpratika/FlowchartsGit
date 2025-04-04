@@ -1,10 +1,10 @@
 {
-  "name": "Logout Application",
+  "name": "Go To Register",
   "id": "-1",
   "type": 3,
   "content": {
     "isSystemKeyword": false,
-    "title": "Logout Application",
+    "title": "Go To Register",
     "specific": [],
     "parameters": [],
     "steps": [
@@ -14,7 +14,7 @@
         "stepParameters": [
           {
             "paramMode": "code",
-            "customValue": "_link(\"My Account\")"
+            "customValue": "_link(\"My Account\", _in(_listItem(\"My Account Register Login\")))"
           }
         ],
         "stepCategory": "inbuilt",
@@ -27,20 +27,7 @@
         "stepParameters": [
           {
             "paramMode": "code",
-            "customValue": "_link(\"Logout\")"
-          }
-        ],
-        "stepCategory": "inbuilt",
-        "stepType": "Action",
-        "specific": []
-      },
-      {
-        "commented": false,
-        "action": "_click",
-        "stepParameters": [
-          {
-            "paramMode": "code",
-            "customValue": "_link(\"Continue\")"
+            "customValue": "_link(\"Register\")"
           }
         ],
         "stepCategory": "inbuilt",

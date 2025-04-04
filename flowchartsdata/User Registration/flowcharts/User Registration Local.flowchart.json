@@ -1,5 +1,5 @@
 {
-  "name": "User Registration",
+  "name": "User Registration Local",
   "id": "-1",
   "type": 0,
   "content": {
@@ -15,7 +15,7 @@
       },
       "fcn_userregistration_0": {
         "id": "fcn_userregistration_0",
-        "content": "User Registration",
+        "content": "User Registration Local",
         "nodeType": "pathlabel",
         "branches": [
           "fcn_gotoregisterpage_0"
@@ -23,7 +23,7 @@
       },
       "fcn_gotoregisterpage_0": {
         "id": "fcn_gotoregisterpage_0",
-        "content": "Go To Registration Page",
+        "content": "Go To Register",
         "nodeType": "action",
         "branches": [
           "fcn_registeruser_0"
@@ -31,7 +31,7 @@
       },
       "fcn_registeruser_0": {
         "id": "fcn_registeruser_0",
-        "content": "Register $user To application",
+        "content": "Register $local_user",
         "nodeType": "action",
         "branches": [
           "fcn_verifyuserregistered_0"
@@ -39,7 +39,7 @@
       },
       "fcn_verifyuserregistered_0": {
         "id": "fcn_verifyuserregistered_0",
-        "content": "Verify $user Registered Successfully",
+        "content": "Verify $local_user Registered Successfully",
         "nodeType": "state",
         "branches": [
           "fcn_logout_0"
@@ -47,13 +47,13 @@
       },
       "fcn_logout_0": {
         "id": "fcn_logout_0",
-        "content": "Logout Application",
+        "content": "Logout",
         "nodeType": "action",
         "branches": []
       },
       "fcn_guestregistration_0": {
         "id": "fcn_guestregistration_0",
-        "content": "Guest Registration",
+        "content": "Guest Registration Local",
         "nodeType": "pathlabel",
         "branches": [
           "fcn_gotoproductdisplaypage_0"
@@ -124,8 +124,8 @@
         "left": 500.0
       },
       "fcn_verifyuserregistered_0": {
-        "top": 394.1562,
-        "left": 500.0
+        "top": 393.1458435058594,
+        "left": 502.0
       },
       "fcn_logout_0": {
         "top": 459.3020435058594,
@@ -172,10 +172,10 @@
         ],
         "dependsPathUID": "17436732835790",
         "dataSet": {
-          "dataSetName": "User Registration.csv",
+          "dataSetName": "Local User Registration.csv",
           "dataSetGroupName": "user_information"
         },
-        "pathTags": "regression",
+        "pathTags": "local",
         "isValidationsEnabled": true
       },
       {
@@ -189,11 +189,11 @@
           "fcn_confirmorder_0"
         ],
         "dependsPathUID": "17437468528651",
-        "pathTags": "smoke",
+        "pathTags": "local",
         "isValidationsEnabled": true
       }
     ],
-    "tags": "regression",
+    "tags": "local",
     "flowChartUID": "fcUID_userregistration_0",
     "pathExecutionOrder": [
       "17437468528651",
